@@ -149,7 +149,7 @@ while run:
             img = image.load('thumb.jpg')
             d = img.get_width() // img.get_height()
             window.fill((255, 255, 255))
-            window.blit(transform.scale(img, (win_height, win_height)), (0,0))
+            window.blit(transform.scale(img, (win_height, win_height)), (0,0)) #for new tests
 
 
 
